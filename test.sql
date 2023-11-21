@@ -1,1 +1,1 @@
-create table test(id bigint)
+create table test(id bigint);
