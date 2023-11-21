@@ -1,5 +1,7 @@
-on: [pull_request]
-
+on: 
+  push:
+    branches:
+     - master
 jobs:
   sql-review:
     runs-on: ubuntu-latest
